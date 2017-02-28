@@ -113,6 +113,8 @@ GLint GLScene::InitGL()										// All Setup For OpenGL Goes Here
 
 	GLLight Light(GL_LIGHT0);
 
+	Mdl->ModelInit();
+
 	return TRUE;										// Initialization Went OK
 }
 

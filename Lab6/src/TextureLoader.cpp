@@ -11,17 +11,16 @@ TextureLoader::~TextureLoader()
     //dtor
 }
 
-void TextureLoader::BindTexture(char*)
+void TextureLoader::BindTexture()
 {
-    glEnable(GL_TEXTURE_2D);
+
     glGenTextures(1, &tex);
+    glEnable(GL_TEXTURE_2D);
 
     glTexEnvi(GL_TEXTURE_ENV,GL_TEXTURE_ENV_MODE,GL_MODULATE);
     glBindTexture(GL_TEXTURE_2D, tex);  // images are 2D arrays of pixels, bound to the GL_TEXTURE_2D target.
 
-    int width, height;  // width & height for the image reader     unsigned char* image;
-
-    image = SOIL_load_image("images/brick-texture.jpg", &width, &height, 0, SOIL_LOAD_RGB);
+    image = SOIL_load_image("images/1.jpg", &width, &height, 0, SOIL_LOAD_RGB);
 
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, image);    // binding image data     SOIL_free_image_data(image);
 

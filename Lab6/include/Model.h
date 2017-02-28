@@ -22,6 +22,7 @@ class Model
         Model();
         virtual ~Model();
         void DrawModel();
+        void ModelInit();
 
         double RotateX;
         double RotateY;

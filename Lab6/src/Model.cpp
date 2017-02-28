@@ -1,4 +1,7 @@
 #include <Model.h>
+#include <TextureLoader.h>>
+
+TextureLoader *tex = new TextureLoader();
 
 Model::Model()
 {
@@ -15,8 +18,14 @@ Model::~Model()
     //dtor
 }
 
+void Model::ModelInit() {
+    tex->Binder();
+    tex->BindTexture();
+}
+
 void Model::DrawModel()
 {
+
     glTranslated(TranslateX,-TranslateY,Zoom);
     glRotated(RotateX,1,0,0);
     glRotated(RotateY,0,1,0);
