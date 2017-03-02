@@ -113,8 +113,6 @@ GLint GLScene::InitGL()										// All Setup For OpenGL Goes Here
 
 	GLLight Light(GL_LIGHT0);
 
-	Mdl->ModelInit();
-
 	return TRUE;										// Initialization Went OK
 }
 
@@ -124,7 +122,7 @@ GLint GLScene::DrawGLScene()									// Here's Where We Do All The Drawing
 	glLoadIdentity();									// Reset The Current Modelview Matrix
 
 	glPushMatrix();
-    Mdl->DrawSkybox();
+    Mdl->DrawModel();
     glPopMatrix();
 
   	return TRUE;										// Keep Going

@@ -1,0 +1,138 @@
+# depslib dependency file v1.0
+1487038512 source:c:\users\library\desktop\csci-291t\helloworld\src\glscene.cpp
+	<GLScene.h>
+
+1487038506 c:\users\library\desktop\csci-291t\helloworld\include\glscene.h
+	<windows.h>
+	<string.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<iostream>
+
+1487038140 c:\users\library\desktop\csci-291t\common\include\gl\glut.h
+	<windows.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1487038429 source:c:\users\library\desktop\csci-291t\helloworld\src\main.cpp
+	<windows.h>
+	<GLScene.h>
+	<stdlib.h>
+	<iostream>
+	<windows.h>
+
+1487039877 source:c:\users\library\desktop\gitportable\app\git\csci-291t\lab3\src\gllight.cpp
+	"GLLight.h"
+
+1487039780 c:\users\library\desktop\gitportable\app\git\csci-291t\lab3\include\gllight.h
+	<GLScene.h>
+
+1487039804 c:\users\library\desktop\gitportable\app\git\csci-291t\lab3\include\glscene.h
+	<windows.h>
+	<string.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<GL/glut.h>
+	<iostream>
+
+1487038140 c:\users\library\desktop\gitportable\app\git\csci-291t\common\include\gl\glut.h
+	<windows.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1487039903 source:c:\users\library\desktop\gitportable\app\git\csci-291t\lab3\src\glscene.cpp
+	<GLScene.h>
+	<GLLight.h>
+	<Inputs.h>
+	<Model.h>
+
+1487039831 c:\users\library\desktop\gitportable\app\git\csci-291t\lab3\include\inputs.h
+	<windows.h>
+	<iostream>
+	<Model.h>
+
+1487039731 c:\users\library\desktop\gitportable\app\git\csci-291t\lab3\include\model.h
+	<windows.h>
+	<string.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<GL/glut.h>
+	<iostream>
+
+1487039932 source:c:\users\library\desktop\gitportable\app\git\csci-291t\lab3\src\inputs.cpp
+	<Inputs.h>
+
+1487039699 source:c:\users\library\desktop\gitportable\app\git\csci-291t\lab3\src\main.cpp
+	<windows.h>
+	<GLScene.h>
+	<stdlib.h>
+	<iostream>
+	<Inputs.h>
+	<windows.h>
+
+1487039851 source:c:\users\library\desktop\gitportable\app\git\csci-291t\lab3\src\model.cpp
+	<Model.h>
+
+1488405653 source:c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\assignmentone\src\gllight.cpp
+	"GLLight.h"
+
+1488405653 c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\assignmentone\include\gllight.h
+	<GLScene.h>
+
+1488405653 c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\assignmentone\include\glscene.h
+	<windows.h>
+	<string.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<GL/glut.h>
+	<iostream>
+
+1487806077 c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\common\include\gl\glut.h
+	<windows.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1488405653 source:c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\assignmentone\src\glscene.cpp
+	<GLScene.h>
+	<GLLight.h>
+	<Inputs.h>
+	<Model.h>
+
+1488430866 c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\assignmentone\include\inputs.h
+	<windows.h>
+	<iostream>
+	<Model.h>
+
+1488405653 c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\assignmentone\include\model.h
+	<windows.h>
+	<string.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<GL/glut.h>
+	<iostream>
+
+1488407943 source:c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\assignmentone\src\inputs.cpp
+	<Inputs.h>
+
+1488405653 source:c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\assignmentone\src\main.cpp
+	<windows.h>
+	<GLScene.h>
+	<stdlib.h>
+	<iostream>
+	<Inputs.h>
+	<windows.h>
+
+1488405653 source:c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\assignmentone\src\model.cpp
+	<Model.h>
+

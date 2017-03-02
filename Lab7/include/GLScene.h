@@ -1,5 +1,5 @@
-#ifndef MODEL_H
-#define MODEL_H
+#ifndef GLSCENE_H
+#define GLSCENE_H
 
 #include <windows.h> // Header File For Windows
 #include <string.h>
@@ -13,17 +13,24 @@
 #include <gl/gl.h>			// Header File For The OpenGL32 Library
 #include <gl/glu.h>			// Header File For The GLu32 Library
 #include <GL/glut.h>
-
 #include <iostream>
 
-class Model
+using namespace std;
+class GLScene
 {
+
     public:
-        Model();
-        virtual ~Model();
-        void DrawModel();
-        void ModelInit();
-        void DrawSkybox();
+        GLScene();
+        virtual ~GLScene();
+        GLvoid ReSizeGLScene(GLsizei width, GLsizei height);
+        GLint InitGL();
+        GLint DrawGLScene();
+
+       int  WindowMsg(  HWND,		// Handle For This Window
+                        UINT,		// Message For This Window
+						WPARAM,		// Additional Message Information
+						LPARAM);
+
 
         double RotateX;
         double RotateY;
@@ -31,11 +38,14 @@ class Model
         double Zoom;
         double TranslateX;
         double TranslateY;
-        float translate_z;
+
+        double sceneWidth;
+        double sceneHeight;
 
     protected:
 
     private:
+
 };
 
-#endif // MODEL_H
+#endif // GLSCENE_H

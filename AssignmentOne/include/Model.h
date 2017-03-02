@@ -22,8 +22,6 @@ class Model
         Model();
         virtual ~Model();
         void DrawModel();
-        void ModelInit();
-        void DrawSkybox();
 
         double RotateX;
         double RotateY;
@@ -31,7 +29,6 @@ class Model
         double Zoom;
         double TranslateX;
         double TranslateY;
-        float translate_z;
 
     protected:
 

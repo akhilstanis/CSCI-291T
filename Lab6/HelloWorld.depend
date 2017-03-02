@@ -139,10 +139,10 @@
 
 1487211203 c:\users\library\desktop\gitportable\app\git\csci-291t\common\include\soil.h
 
-1487806077 source:c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\lab6\src\gllight.cpp
+1488254545 source:c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\lab6\src\gllight.cpp
 	"GLLight.h"
 
-1487806077 c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\lab6\include\gllight.h
+1488254682 c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\lab6\include\gllight.h
 	<GLScene.h>
 
 1487806077 c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\lab6\include\glscene.h
@@ -161,7 +161,7 @@
 	<GL/gl.h>
 	<GL/glu.h>
 
-1487814497 source:c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\lab6\src\glscene.cpp
+1488251501 source:c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\lab6\src\glscene.cpp
 	<GLScene.h>
 	<GLLight.h>
 	<Inputs.h>
@@ -172,7 +172,7 @@
 	<iostream>
 	<Model.h>
 
-1487814474 c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\lab6\include\model.h
+1488251484 c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\lab6\include\model.h
 	<windows.h>
 	<string.h>
 	<GLUT/glut.h>
@@ -193,16 +193,16 @@
 	<Inputs.h>
 	<windows.h>
 
-1487814962 source:c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\lab6\src\textureloader.cpp
+1488252225 source:c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\lab6\src\textureloader.cpp
 	"TextureLoader.h"
 
-1487814481 c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\lab6\include\textureloader.h
+1488252236 c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\lab6\include\textureloader.h
 	<SOIL.h>
 	<GL/gl.h>
 
 1487806077 c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\common\include\soil.h
 
-1487814465 source:c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\lab6\src\model.cpp
+1488255193 source:c:\users\library\desktop\downloads\gitportable\app\git\cscsi-291t\lab6\src\model.cpp
 	<Model.h>
 	<TextureLoader.h>
 

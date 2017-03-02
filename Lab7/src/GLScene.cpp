@@ -3,13 +3,16 @@
 #include <GLLight.h>
 #include <Inputs.h>
 #include <Model.h>
+#include <Parallax.h>
 
 Model *Mdl = new Model();
 Inputs *KbMs = new Inputs();
+Parallax *plx = new Parallax();
 
 GLScene::GLScene()
 {
-
+    sceneWidth  = GetSystemMetrics(SM_CXSCREEN);
+    sceneHeight = GetSystemMetrics(SM_CYSCREEN);
 }
 
 GLScene::~GLScene()
@@ -114,6 +117,8 @@ GLint GLScene::InitGL()										// All Setup For OpenGL Goes Here
 	GLLight Light(GL_LIGHT0);
 
 	Mdl->ModelInit();
+	plx->ParaInit();
+
 
 	return TRUE;										// Initialization Went OK
 }
@@ -124,7 +129,12 @@ GLint GLScene::DrawGLScene()									// Here's Where We Do All The Drawing
 	glLoadIdentity();									// Reset The Current Modelview Matrix
 
 	glPushMatrix();
-    Mdl->DrawSkybox();
+    Mdl->DrawModel();
+    glPopMatrix();
+
+    glScalef(3.33,3.33,1.0);
+    glPushMatrix();
+    plx->DrawBackground(sceneWidth, sceneHeight);
     glPopMatrix();
 
   	return TRUE;										// Keep Going
